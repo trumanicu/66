@@ -5,12 +5,12 @@ import os, re
 import random,readJSON
 
 data = readJSON.读JSON文件("d.json")
-名人名言 = data["famous"] # 主要取自老胡经典的话
-前面垫话 = data["before"] # 在老胡名言前面弄点话
-后面垫话 = data['after']  # 在老胡名言后面弄点话
-废话 = data['bosh'] # 老胡文章主要废话
+名人名言 = data["famous"] # 主要取自66经典的话
+前面垫话 = data["before"] # 在66名言前面弄点话
+后面垫话 = data['after']  # 在66名言后面弄点话
+废话 = data['bosh'] # 66文章主要废话
 
-xx = "老胡"
+xx = "66"
 
 重复度 = 2
 
